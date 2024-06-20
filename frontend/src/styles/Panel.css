@@ -1,0 +1,247 @@
+/* supplier profile page styles */
+
+/* navbar style */
+.navbar {
+    padding-right: 0 !important;
+}
+
+/* logout button style */
+.navbar-button {
+    padding: 15px 30px !important;
+}
+
+.navbar-button p {
+    font-size: 0.77rem !important;
+}
+
+.navbar-button:hover {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.box-content {
+    width: "100%";
+    height: "100%";
+    margin-top: 50px;
+}
+
+/* welcome text style */
+.welcome-text {
+    width: calc(100% - 260px);
+}
+
+/* welcome text style */
+.options-button {
+    padding: 10px 20px !important;
+}
+
+/* style of radio buttons to add work or export to CSV */
+.text-options-button {
+    font-size: 0.7rem !important;
+}
+
+.bi-plus-circle,
+.bi-file-earmark-spreadsheet {
+    font-size: 0.85rem !important;
+    margin-top: 2px;
+}
+
+/* style of the container of the calendars and list of works */
+.date-content {
+    display: flex;
+    gap: 16px;
+}
+
+/* monthly calendar style */
+.custom-grid-calendar {
+    width: 225px;
+    margin-top: 2.9rem;
+}
+
+.custom-date-calendar {
+    width: inherit !important;
+    max-height: 260px !important;
+}
+
+.MuiPickersCalendarHeader-root {
+    padding-left: 12px !important;
+}
+
+.MuiPickersCalendarHeader-labelContainer {
+    font-size: 13px !important;
+}
+
+.MuiPickersArrowSwitcher-button {
+    font-size: 1.3rem !important;
+}
+
+.css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {
+    font-size: 12px !important;
+}
+
+.custom-date-calendar
+    .MuiDayCalendar-slideTransition.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition
+    button,
+.custom-date-calendar
+    .MuiButtonBase-root.MuiPickersDay-root.MuiPickersDay-dayWithMargin {
+    font-size: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+/* Legends */
+.legends {
+    text-align: left;
+    color: #121212;
+}
+
+/* weekly calendar style */
+.bi-chevron-left::before,
+.bi-chevron-right::before {
+    font-weight: 900 !important;
+}
+
+.custom-block-hours {
+    margin-top: 1.99em !important;
+}
+
+.box-icon-works {
+    height: 2rem;
+}
+
+.works {
+    border-top: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    margin-top: 0px;
+    height: 3.43em;
+}
+
+.bi-bookmark-fill {
+    color: #1976d2;
+}
+
+.block-icons {
+    font-size: 1.3rem !important;
+}
+
+.block-fonts {
+    color: #1976d2;
+    font: inherit;
+    font-size: 0.75rem !important;
+}
+
+.bi-bookmark-fill p {
+    font-size: 0.65rem !important;
+    text-transform: lowercase !important;
+}
+
+/* work list icons */
+.work-icon {
+    color: black;
+    font-size: 1rem;
+    width: 10px;
+}
+
+.work-postulation-icon {
+    font-size: 18px;
+    color: gray;
+    margin-left: -10px;
+}
+
+/* Cancel buttons modal */
+.cancel-button-contained {
+    margin-right: 10px !important;
+}
+
+/* media querys */
+
+@media (min-width: 530px) {
+    /* style of the weekly calendar container */
+    .container-works-calendar {
+        width: calc(100% - 225px + 16px) !important;
+    }
+}
+
+@media (max-width: 530px) {
+    /* style of the container of the calendars and list of works */
+    .date-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 9px;
+    }
+
+    /* welcome text style */
+    .welcome-text {
+        width: calc(100% - 140px);
+    }
+
+    /* style of radio buttons to add work or export to CSV: resizing */
+    .options-button {
+        width: 60px;
+        min-width: 60px !important;
+        height: 45px;
+    }
+
+    .navbar-button {
+        padding: 15px 30px !important;
+    }
+
+    .navbar-button p {
+        display: none;
+    }
+
+    .text-options-button {
+        display: none;
+    }
+
+    .options-button span {
+        margin: 0;
+    }
+
+    .options-button i {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media (max-width: 900px) {
+    :root {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .block-fonts {
+        font-size: 0.6rem !important;
+    }
+
+    :root {
+        font-size: 11px;
+    }
+
+    .custom-grid-calendar {
+        width: 195px;
+    }
+
+    .custom-date-calendar
+        .MuiDayCalendar-slideTransition.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition
+        button,
+    .custom-date-calendar
+        .MuiButtonBase-root.MuiPickersDay-root.MuiPickersDay-dayWithMargin {
+        font-size: 10px;
+        height: 21px;
+        width: 21px;
+    }
+    .custom-date-calendar {
+        max-height: 240px !important;
+    }
+}
+
+@media (max-width: 1550px) {
+    :root {
+        font-size: 13px;
+    }
+}

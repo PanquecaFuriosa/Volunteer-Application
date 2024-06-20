@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "reports.tmp.path",
+  "type": "java.lang.String",
+  "description": "Path to the temporal folder that will contain the report files.'"
+}]}
