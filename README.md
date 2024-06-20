@@ -43,4 +43,5 @@ The project follows the following structure:
 ├── backend/ &nbsp;&nbsp;&nbsp;_#Back-end source code (Java Spring Boot)_<br>
 ├── frontend/ &nbsp;&nbsp;&nbsp;_#Front-end source code (React)_<br>
 ├── docker-compose.yaml &nbsp;&nbsp;&nbsp;_#Docker Compose configuration file_<br>
+├── Volunteer_Work_Manager_Design.pdf 
 └── README.md &nbsp;&nbsp;&nbsp;_#Project documentation_ (this file)
